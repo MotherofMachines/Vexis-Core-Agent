@@ -1,5 +1,7 @@
-# Welcome to GitHub Desktop!
+# Vexis Nexus
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+This project simulates the boot sequence of the **Vexis Nexus** agent.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+Run `python3 main.py` to observe the initialization process. The script reads the
+`vexis_manifest.md` and dynamically loads any modules found in the `modules/`
+and `tools/` directories.
